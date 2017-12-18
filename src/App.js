@@ -7,7 +7,7 @@ class App extends Component {
   render() {
     let testTweet = {
       message: "Something about cats.",
-      gravatar: "xyz",
+      gravatar: "5da3266bcbfcf6139a2c69d920aee4ae?s=50",
       author: {
         handle: "catperson",
         name: "IAMA Cat Person"
