@@ -1,0 +1,71 @@
+#root {
+  position: relative;
+}
+
+.tweet {
+  border: 1px solid #192c3d;
+  width: 564px;
+  min-height: 68px;
+  padding: 10px;
+  display: flex;
+  font-family: "Helvetica", arial, sans-serif;
+  font-size: 14px;
+  line-height: 18px;
+  background-color: #192c3d;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50% -50%);
+  color: #fff;
+}
+
+.avatar {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.name {
+  font-weight: bold;
+  margin-bottom: 0.5em;
+  margin-right: 0.3em;
+  color: #fff;
+}
+
+.handle {
+  color: #8899a6;
+  font-size: 13px;
+}
+
+.time {
+  padding-left: 0.3em;
+  color: #8899a6;
+}
+
+.time::before {
+  content: "\00b7";
+  padding-right: 0.3em;
+}
+
+.buttons {
+  margin-top: 10px;
+  margin-left: 2px;
+  font-size: 1.0em;
+  color: #aab8c2;
+}
+
+.buttons i {
+  margin-right: 50px;
+  cursor: pointer;
+}
+
+.count {
+  font-family: "Helvetica", arial, sans-serif;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
