@@ -1,5 +1,5 @@
 #root {
-  position: relative;
+  position: relative !important;
 }
 
 .tweet {
@@ -12,12 +12,8 @@
   font-size: 14px;
   line-height: 18px;
   background-color: #192c3d;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  margin-right: -50%;
-  transform: translate(-50% -50%);
   color: #fff;
+  margin: auto;
 }
 
 .avatar {
